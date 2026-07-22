@@ -1,0 +1,34 @@
+{
+  "sources": [
+    {
+      "id": "src-ecdf94bc48",
+      "filename": "Mambo Fundamentals - Demo Lesson.mp4",
+      "path": "demo/Mambo Fundamentals - Demo Lesson.mp4",
+      "durationSeconds": 141.92,
+      "durationHuman": "00:02:21",
+      "width": 1280,
+      "height": 720,
+      "fps": 29.99,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "hasAudio": true,
+      "meanVolumeDb": -16.5,
+      "sizeBytes": 3513714,
+      "mtime": "2026-07-22T06:43:52.127Z",
+      "recordingDate": "",
+      "instructor": "",
+      "existingTitle": "",
+      "notes": "",
+      "technicalQuality": "acceptable (720p)",
+      "fullBodyVisible": "unknown — verify visually",
+      "feetVisible": "unknown — verify visually",
+      "musicPresent": "unknown — determined during analysis",
+      "speechClear": "audio present — verify by listening",
+      "transcribable": "yes (audio track present)",
+      "potentialDuplicateOf": [],
+      "preppedPath": "sources/src-ecdf94bc48.mp4",
+      "auditedAt": "2026-07-22T06:44:01.782Z",
+      "missing": false
+    }
+  ]
+}

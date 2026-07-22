@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Large media — never committed. Source videos are supplied locally (or via
+# Git LFS / a Drive sync); rendered clips are reproducible from data/ + sources.
+source-videos/*
+!source-videos/README.md
+!source-videos/demo/
+public/sources/*
+!public/sources/.gitkeep
+renders/*
+!renders/.gitkeep
+
+# Rendered clips & generated media are reproducible; keep only the tiny demo
+# clips so the library works out of the box after cloning.
+public/clips/*
+!public/clips/.gitkeep
+!public/clips/demo-*.mp4
+public/thumbnails/.frames/
+
+# Build output
+app/dist/
+dist/
+
+# Scratch
+*.log
+.DS_Store
+.env
+.env.*

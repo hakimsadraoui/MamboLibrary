@@ -1,0 +1,15 @@
+{
+  "_comment": "Global alias map: canonical term -> accepted alternative spellings/names. Used by search and by duplicate detection. Extend freely.",
+  "Basic Step": ["Mambo Basic", "Basic", "On2 Basic", "Guapea"],
+  "Cross-Body Lead": ["CBL", "Cross Body", "Crossbody Lead", "Dile Que No"],
+  "Suzie Q": ["Susie Q", "Suzy Q", "Susy Q"],
+  "Cucaracha": ["Kukaracha", "Cuca"],
+  "Cumbia Step": ["Back Rock", "Back Break"],
+  "Right Turn": ["Outside Turn", "Natural Turn"],
+  "Left Turn": ["Inside Turn", "Reverse Turn"],
+  "Pachanga Basic": ["Pachanga Step"],
+  "Contrabody Movement": ["CBM", "Contra-body", "Contra Body Motion"],
+  "Sacala": ["Sácala", "Sakala"],
+  "Flare": ["Flair"],
+  "Hook Turn": ["Sacacorchos", "Corkscrew Turn"]
+}

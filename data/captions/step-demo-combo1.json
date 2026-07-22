@@ -1,0 +1,32 @@
+{
+  "stepId": "step-demo-combo1",
+  "generatedAt": "2026-07-22T06:49:02.049Z",
+  "fromOverrides": false,
+  "cues": [
+    {
+      "start": 2,
+      "end": 5.280000000000001,
+      "text": "Now let us put it together into a small\ncombination."
+    },
+    {
+      "start": 5.280000000000001,
+      "end": 10.47999999999999,
+      "text": "We start with the basic step, then two\nSuzie Qs, and we finish with a right turn."
+    },
+    {
+      "start": 10.47999999999999,
+      "end": 15.079999999999998,
+      "text": "The turn preparation happens on six, so do\nnot be late."
+    },
+    {
+      "start": 15.079999999999998,
+      "end": 18.049999999999997,
+      "text": "First the whole thing slowly."
+    },
+    {
+      "start": 18.78,
+      "end": 22.39,
+      "text": "Full combination with the music. Here we\ngo."
+    }
+  ]
+}

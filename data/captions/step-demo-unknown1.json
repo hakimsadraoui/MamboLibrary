@@ -1,0 +1,17 @@
+{
+  "stepId": "step-demo-unknown1",
+  "generatedAt": "2026-07-22T06:49:02.050Z",
+  "fromOverrides": false,
+  "cues": [
+    {
+      "start": 2,
+      "end": 4.959999999999994,
+      "text": "And eh, this one, some people call it\ndifferently,"
+    },
+    {
+      "start": 4.959999999999994,
+      "end": 7.9199999999999875,
+      "text": "we can maybe look at it another day"
+    }
+  ]
+}

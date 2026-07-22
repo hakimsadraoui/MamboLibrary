@@ -1,0 +1,435 @@
+[
+  {
+    "id": "step-demo-basic",
+    "title": "Basic Step",
+    "aliases": [
+      "Mambo Basic",
+      "On2 Basic"
+    ],
+    "slug": "basic-step",
+    "type": "step",
+    "category": "Foundation",
+    "subcategory": "Core basics",
+    "level": "Beginner",
+    "timing": "On2",
+    "counts": "1-2-3 · 5-6-7 (break on 2 and 6)",
+    "direction": "Forward and back",
+    "startingFoot": "Left",
+    "prerequisites": [],
+    "relatedSteps": [
+      "step-demo-weight",
+      "step-demo-combo1"
+    ],
+    "tags": [
+      "demo",
+      "basic",
+      "foundation",
+      "weight transfer"
+    ],
+    "instructor": "Demo Instructor",
+    "sourceVideo": "src-ecdf94bc48",
+    "sourceStartTime": "00:00:13.2",
+    "sourceEndTime": "00:01:06.4",
+    "explanationStartTime": "00:00:13.2",
+    "slowDemoStartTime": "00:00:32.9",
+    "musicDemoStartTime": "00:00:51.9",
+    "durationSeconds": 0,
+    "summary": "SYNTHETIC DEMO CLIP (pipeline validation). The On2 basic: break on 2, full weight transfer, return on 6, with a slow counted demonstration and a music demonstration.",
+    "keyTechniquePoints": [
+      "Transfer the weight completely on every step",
+      "Break on 2, come back on 6",
+      "Keep the supporting knee soft"
+    ],
+    "commonMistakes": [
+      "Rushing the weight transfer"
+    ],
+    "practiceTips": [
+      "Practise first at 75% speed"
+    ],
+    "musicBpm": 120,
+    "hasExplanation": true,
+    "hasSlowDemo": true,
+    "hasMusicDemo": true,
+    "confidence": 0.95,
+    "reviewRequired": false,
+    "reviewReason": "",
+    "clipPath": "",
+    "thumbnailPath": "",
+    "captionsPath": "captions/basic-step.vtt",
+    "sections": [
+      {
+        "kind": "explanation",
+        "label": "Explanation",
+        "sourceStart": 13.2,
+        "sourceEnd": 32.6,
+        "overlays": [
+          {
+            "start": 4.4,
+            "end": 7.6,
+            "text": "Start with the left foot",
+            "kind": "cue"
+          },
+          {
+            "start": 11.2,
+            "end": 14.6,
+            "text": "Weight transfer",
+            "kind": "cue"
+          }
+        ]
+      },
+      {
+        "kind": "slow-demo",
+        "label": "Slow demonstration · with counts",
+        "sourceStart": 32.92,
+        "sourceEnd": 51.9,
+        "countOverlay": {
+          "startAt": 6.28,
+          "secondsPerCount": 0.6,
+          "sequence": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "cycles": 1
+        }
+      },
+      {
+        "kind": "music-demo",
+        "label": "With music",
+        "sourceStart": 51.92,
+        "sourceEnd": 66.4
+      }
+    ],
+    "thumbnailTime": 40,
+    "versionLabel": "",
+    "alternateVersions": [],
+    "burnCaptions": false,
+    "demo": true,
+    "addedAt": "2026-07-22T07:00:00.000Z",
+    "updatedAt": "2026-07-22T07:00:00.000Z"
+  },
+  {
+    "id": "step-demo-weight",
+    "title": "Weight Transfer Technique",
+    "aliases": [
+      "Weight change drill"
+    ],
+    "slug": "weight-transfer-technique",
+    "type": "technique",
+    "category": "Timing and Weight Transfer",
+    "subcategory": "",
+    "level": "Improver",
+    "timing": "On2",
+    "counts": "",
+    "direction": "",
+    "startingFoot": "",
+    "prerequisites": [
+      "step-demo-basic"
+    ],
+    "relatedSteps": [
+      "step-demo-basic"
+    ],
+    "tags": [
+      "demo",
+      "technique",
+      "weight transfer"
+    ],
+    "instructor": "Demo Instructor",
+    "sourceVideo": "src-ecdf94bc48",
+    "sourceStartTime": "00:00:19.4",
+    "sourceEndTime": "00:00:32.6",
+    "explanationStartTime": "00:00:19.4",
+    "slowDemoStartTime": "",
+    "musicDemoStartTime": "",
+    "durationSeconds": 0,
+    "summary": "SYNTHETIC DEMO CLIP (pipeline validation). Focused technical extract: complete weight transfer with a soft supporting knee — the detail that makes the basic step work.",
+    "keyTechniquePoints": [
+      "Arrive fully over the standing foot",
+      "Do not rush the transfer",
+      "Soft supporting knee throughout"
+    ],
+    "commonMistakes": [
+      "Splitting weight between both feet"
+    ],
+    "practiceTips": [
+      "Pause on each count and check your balance"
+    ],
+    "musicBpm": null,
+    "hasExplanation": true,
+    "hasSlowDemo": false,
+    "hasMusicDemo": false,
+    "confidence": 0.85,
+    "reviewRequired": false,
+    "reviewReason": "",
+    "clipPath": "",
+    "thumbnailPath": "",
+    "captionsPath": "captions/weight-transfer-technique.vtt",
+    "sections": [
+      {
+        "kind": "explanation",
+        "label": "Technique focus",
+        "sourceStart": 19.4,
+        "sourceEnd": 32.6,
+        "overlays": [
+          {
+            "start": 0.6,
+            "end": 4.2,
+            "text": "Weight transfer",
+            "kind": "cue"
+          },
+          {
+            "start": 8.2,
+            "end": 12.4,
+            "text": "Do not rush the transfer",
+            "kind": "mistake"
+          }
+        ]
+      }
+    ],
+    "thumbnailTime": 26,
+    "versionLabel": "Technique Focus",
+    "alternateVersions": [],
+    "burnCaptions": false,
+    "demo": true,
+    "addedAt": "2026-07-22T07:00:00.000Z",
+    "updatedAt": "2026-07-22T07:00:00.000Z"
+  },
+  {
+    "id": "step-demo-suzieq",
+    "title": "Suzie Q",
+    "aliases": [
+      "Susie Q",
+      "Suzy Q"
+    ],
+    "slug": "suzie-q",
+    "type": "step",
+    "category": "Mambo Footwork",
+    "subcategory": "Crossing actions",
+    "level": "Intermediate",
+    "timing": "On2",
+    "counts": "",
+    "direction": "In place",
+    "startingFoot": "Left",
+    "prerequisites": [
+      "step-demo-basic"
+    ],
+    "relatedSteps": [
+      "step-demo-combo1"
+    ],
+    "tags": [
+      "demo",
+      "footwork",
+      "crossing"
+    ],
+    "instructor": "Demo Instructor",
+    "sourceVideo": "src-ecdf94bc48",
+    "sourceStartTime": "00:01:06.67",
+    "sourceEndTime": "00:01:32.0",
+    "explanationStartTime": "00:01:06.67",
+    "slowDemoStartTime": "00:01:24.15",
+    "musicDemoStartTime": "",
+    "durationSeconds": 0,
+    "summary": "SYNTHETIC DEMO CLIP (pipeline validation). The Suzie Q crossing action: cross in front, open, cross again — rotation from the torso, heel down until the weight arrives.",
+    "keyTechniquePoints": [
+      "Rotate from the torso, not the arms",
+      "Keep the heel down until the weight arrives",
+      "Knees stay soft through the cross"
+    ],
+    "commonMistakes": [
+      "Lifting the heel too early"
+    ],
+    "practiceTips": [
+      "Drill the cross-open-cross slowly before adding speed"
+    ],
+    "musicBpm": null,
+    "hasExplanation": true,
+    "hasSlowDemo": true,
+    "hasMusicDemo": false,
+    "confidence": 0.92,
+    "reviewRequired": false,
+    "reviewReason": "",
+    "clipPath": "",
+    "thumbnailPath": "",
+    "captionsPath": "captions/suzie-q.vtt",
+    "sections": [
+      {
+        "kind": "explanation",
+        "label": "Explanation",
+        "sourceStart": 66.67,
+        "sourceEnd": 83.6,
+        "overlays": [
+          {
+            "start": 6,
+            "end": 9.6,
+            "text": "Rotate from the torso",
+            "kind": "cue"
+          },
+          {
+            "start": 10,
+            "end": 13.6,
+            "text": "Lifting the heel too early",
+            "kind": "mistake"
+          }
+        ]
+      },
+      {
+        "kind": "slow-demo",
+        "label": "Slow demonstration",
+        "sourceStart": 84.15,
+        "sourceEnd": 92
+      }
+    ],
+    "thumbnailTime": 75,
+    "versionLabel": "",
+    "alternateVersions": [],
+    "burnCaptions": true,
+    "demo": true,
+    "addedAt": "2026-07-22T07:00:00.000Z",
+    "updatedAt": "2026-07-22T07:00:00.000Z"
+  },
+  {
+    "id": "step-demo-combo1",
+    "title": "Basic into Suzie Q Combination",
+    "aliases": [],
+    "slug": "basic-suzie-q-combination",
+    "type": "combination",
+    "category": "Combinations",
+    "subcategory": "",
+    "level": "Intermediate",
+    "timing": "On2",
+    "counts": "Turn prep on 6",
+    "direction": "Forward, then in place, right turn",
+    "startingFoot": "Left",
+    "prerequisites": [
+      "step-demo-basic",
+      "step-demo-suzieq"
+    ],
+    "relatedSteps": [],
+    "tags": [
+      "demo",
+      "combination",
+      "right turn"
+    ],
+    "instructor": "Demo Instructor",
+    "sourceVideo": "src-ecdf94bc48",
+    "sourceStartTime": "00:01:32.12",
+    "sourceEndTime": "00:02:04.8",
+    "explanationStartTime": "00:01:32.12",
+    "slowDemoStartTime": "",
+    "musicDemoStartTime": "00:01:49.67",
+    "durationSeconds": 0,
+    "summary": "SYNTHETIC DEMO CLIP (pipeline validation). Short combination: basic step, two Suzie Qs, finish with a right turn — turn preparation on 6.",
+    "keyTechniquePoints": [
+      "Prepare the right turn on 6",
+      "Keep the basic timing steady under the Suzie Qs",
+      "Finish the turn before restarting the basic"
+    ],
+    "commonMistakes": [
+      "Late turn preparation"
+    ],
+    "practiceTips": [
+      "Dance the whole sequence slowly before using music"
+    ],
+    "musicBpm": 120,
+    "hasExplanation": true,
+    "hasSlowDemo": false,
+    "hasMusicDemo": true,
+    "confidence": 0.9,
+    "reviewRequired": false,
+    "reviewReason": "",
+    "clipPath": "",
+    "thumbnailPath": "",
+    "captionsPath": "captions/basic-suzie-q-combination.vtt",
+    "sections": [
+      {
+        "kind": "explanation",
+        "label": "Explanation",
+        "sourceStart": 92.12,
+        "sourceEnd": 108.9,
+        "overlays": [
+          {
+            "start": 9,
+            "end": 13.2,
+            "text": "Prep the turn on 6",
+            "kind": "cue"
+          }
+        ]
+      },
+      {
+        "kind": "music-demo",
+        "label": "With music",
+        "sourceStart": 109.67,
+        "sourceEnd": 124.8
+      }
+    ],
+    "thumbnailTime": 100,
+    "versionLabel": "",
+    "alternateVersions": [],
+    "burnCaptions": false,
+    "demo": true,
+    "addedAt": "2026-07-22T07:00:00.000Z",
+    "updatedAt": "2026-07-22T07:00:00.000Z"
+  },
+  {
+    "id": "step-demo-unknown1",
+    "title": "Unnamed Step — Requires Review",
+    "aliases": [],
+    "slug": "unnamed-step-requires-review-01",
+    "type": "step",
+    "category": "Extra+",
+    "subcategory": "",
+    "level": "Improver",
+    "timing": "",
+    "counts": "",
+    "direction": "",
+    "startingFoot": "",
+    "prerequisites": [],
+    "relatedSteps": [],
+    "tags": [
+      "demo",
+      "unidentified"
+    ],
+    "instructor": "Demo Instructor",
+    "sourceVideo": "src-ecdf94bc48",
+    "sourceStartTime": "00:02:05.28",
+    "sourceEndTime": "00:02:13.0",
+    "explanationStartTime": "00:02:05.28",
+    "slowDemoStartTime": "",
+    "musicDemoStartTime": "",
+    "durationSeconds": 0,
+    "summary": "SYNTHETIC DEMO CLIP (pipeline validation). The instructor mentions a step but the audio is very quiet and the name is inaudible. Kept unpublished-quality on purpose to exercise the review queue.",
+    "keyTechniquePoints": [],
+    "commonMistakes": [],
+    "practiceTips": [],
+    "musicBpm": null,
+    "hasExplanation": true,
+    "hasSlowDemo": false,
+    "hasMusicDemo": false,
+    "confidence": 0.3,
+    "reviewRequired": true,
+    "reviewReason": "Step name inaudible (very quiet, unclear audio; transcript confidence low). Name, category, level and clip boundaries all need human confirmation.",
+    "clipPath": "",
+    "thumbnailPath": "",
+    "captionsPath": "captions/unnamed-step-requires-review-01.vtt",
+    "sections": [
+      {
+        "kind": "other",
+        "label": "Unclear segment",
+        "sourceStart": 125.28,
+        "sourceEnd": 133
+      }
+    ],
+    "thumbnailTime": 128,
+    "versionLabel": "",
+    "alternateVersions": [],
+    "burnCaptions": false,
+    "demo": true,
+    "addedAt": "2026-07-22T07:00:00.000Z",
+    "updatedAt": "2026-07-22T07:00:00.000Z"
+  }
+]

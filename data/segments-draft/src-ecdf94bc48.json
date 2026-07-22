@@ -1,0 +1,221 @@
+{
+  "sourceId": "src-ecdf94bc48",
+  "sourceMtime": "2026-07-22T06:43:52.127Z",
+  "generatedAt": "2026-07-22T06:48:24.851Z",
+  "hasTranscript": true,
+  "silences": [
+    {
+      "start": 11.3233,
+      "end": 13.238,
+      "duration": 1.91472
+    },
+    {
+      "start": 31.0328,
+      "end": 32.9566,
+      "duration": 1.92374
+    },
+    {
+      "start": 82.3039,
+      "end": 84.2032,
+      "duration": 1.89932
+    },
+    {
+      "start": 107.778,
+      "end": 109.74,
+      "duration": 1.96231
+    }
+  ],
+  "sceneChanges": [],
+  "hints": [
+    {
+      "time": 2,
+      "kind": "possible-step-name",
+      "label": "basic",
+      "text": "In today's class we are going to break down three things. The basic step, the Suzie Q, and a short combination."
+    },
+    {
+      "time": 13.2,
+      "kind": "possible-step-name",
+      "label": "the basic step",
+      "text": "This step is called the basic step."
+    },
+    {
+      "time": 13.2,
+      "kind": "possible-step-name",
+      "label": "basic",
+      "text": "This step is called the basic step."
+    },
+    {
+      "time": 32.92,
+      "kind": "slow demo cue",
+      "text": "Let us do it slowly with the counts."
+    },
+    {
+      "time": 35.6,
+      "kind": "count-in (5-6-7-8)",
+      "text": "Five, six, seven, eight."
+    },
+    {
+      "time": 39.2,
+      "kind": "count-in (5-6-7-8)",
+      "text": "One, two, three, four, five, six, seven, eight."
+    },
+    {
+      "time": 44,
+      "kind": "repeat demo",
+      "text": "One more time."
+    },
+    {
+      "time": 45.3,
+      "kind": "count-in (5-6-7-8)",
+      "text": "One, two, three, four, five, six, seven, eight."
+    },
+    {
+      "time": 51.92,
+      "kind": "music demo cue",
+      "text": "Now with the music. Here we go."
+    },
+    {
+      "time": 76.6,
+      "kind": "mistake correction",
+      "text": "A common mistake is lifting the heel too early."
+    },
+    {
+      "time": 84.15,
+      "kind": "slow demo cue",
+      "text": "Slowly now."
+    },
+    {
+      "time": 95.4,
+      "kind": "possible-step-name",
+      "label": "basic",
+      "text": "We start with the basic step, then two Suzie Qs, and we finish with a right turn."
+    },
+    {
+      "time": 105.2,
+      "kind": "slow demo cue",
+      "text": "First the whole thing slowly."
+    },
+    {
+      "time": 109.67,
+      "kind": "music demo cue",
+      "text": "Full combination with the music. Here we go."
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 12.28065,
+      "startTc": "00:00:00",
+      "endTc": "00:00:12",
+      "hints": [
+        {
+          "time": 2,
+          "kind": "possible-step-name",
+          "label": "basic",
+          "text": "In today's class we are going to break down three things. The basic step, the Suzie Q, and a short combination."
+        }
+      ]
+    },
+    {
+      "start": 12.28065,
+      "end": 31.9947,
+      "startTc": "00:00:12",
+      "endTc": "00:00:31",
+      "hints": [
+        {
+          "time": 13.2,
+          "kind": "possible-step-name",
+          "label": "the basic step",
+          "text": "This step is called the basic step."
+        },
+        {
+          "time": 13.2,
+          "kind": "possible-step-name",
+          "label": "basic",
+          "text": "This step is called the basic step."
+        }
+      ]
+    },
+    {
+      "start": 31.9947,
+      "end": 83.25354999999999,
+      "startTc": "00:00:31",
+      "endTc": "00:01:23",
+      "hints": [
+        {
+          "time": 32.92,
+          "kind": "slow demo cue",
+          "text": "Let us do it slowly with the counts."
+        },
+        {
+          "time": 35.6,
+          "kind": "count-in (5-6-7-8)",
+          "text": "Five, six, seven, eight."
+        },
+        {
+          "time": 39.2,
+          "kind": "count-in (5-6-7-8)",
+          "text": "One, two, three, four, five, six, seven, eight."
+        },
+        {
+          "time": 44,
+          "kind": "repeat demo",
+          "text": "One more time."
+        },
+        {
+          "time": 45.3,
+          "kind": "count-in (5-6-7-8)",
+          "text": "One, two, three, four, five, six, seven, eight."
+        },
+        {
+          "time": 51.92,
+          "kind": "music demo cue",
+          "text": "Now with the music. Here we go."
+        },
+        {
+          "time": 76.6,
+          "kind": "mistake correction",
+          "text": "A common mistake is lifting the heel too early."
+        }
+      ]
+    },
+    {
+      "start": 83.25354999999999,
+      "end": 108.759,
+      "startTc": "00:01:23",
+      "endTc": "00:01:48",
+      "hints": [
+        {
+          "time": 84.15,
+          "kind": "slow demo cue",
+          "text": "Slowly now."
+        },
+        {
+          "time": 95.4,
+          "kind": "possible-step-name",
+          "label": "basic",
+          "text": "We start with the basic step, then two Suzie Qs, and we finish with a right turn."
+        },
+        {
+          "time": 105.2,
+          "kind": "slow demo cue",
+          "text": "First the whole thing slowly."
+        }
+      ]
+    },
+    {
+      "start": 108.759,
+      "end": 141.92,
+      "startTc": "00:01:48",
+      "endTc": "00:02:21",
+      "hints": [
+        {
+          "time": 109.67,
+          "kind": "music demo cue",
+          "text": "Full combination with the music. Here we go."
+        }
+      ]
+    }
+  ]
+}

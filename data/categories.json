@@ -1,0 +1,25 @@
+{
+  "categories": [
+    {"id": "foundation", "name": "Foundation", "color": "#E8B44F"},
+    {"id": "mambo-footwork", "name": "Mambo Footwork", "color": "#E4574C"},
+    {"id": "shines", "name": "Shines", "color": "#F2784B"},
+    {"id": "partnerwork", "name": "Partnerwork", "color": "#C94F7C"},
+    {"id": "turns", "name": "Turns", "color": "#8E5AC8"},
+    {"id": "body-movement", "name": "Body Movement", "color": "#4FA3C9"},
+    {"id": "arm-styling", "name": "Arm Styling", "color": "#4FC9A0"},
+    {"id": "timing-weight-transfer", "name": "Timing and Weight Transfer", "color": "#7FB35C"},
+    {"id": "musicality", "name": "Musicality", "color": "#C9B14F"},
+    {"id": "pachanga", "name": "Pachanga", "color": "#E48A4C"},
+    {"id": "son", "name": "Son", "color": "#B0784F"},
+    {"id": "afro-cuban", "name": "Afro-Cuban", "color": "#9C6B3F"},
+    {"id": "rumba", "name": "Rumba", "color": "#C95F4F"},
+    {"id": "technique-drills", "name": "Technique Drills", "color": "#5C7FB3"},
+    {"id": "combinations", "name": "Combinations", "color": "#B34F8E"},
+    {"id": "common-mistakes", "name": "Common Mistakes", "color": "#C9574F"},
+    {"id": "performance-styling", "name": "Performance Styling", "color": "#D4A24F"},
+    {"id": "extra", "name": "Extra+", "color": "#8A8F98"}
+  ],
+  "levels": ["Beginner", "Improver", "Intermediate", "Advanced"],
+  "types": ["step", "combination", "technique", "drill", "correction", "musicality"],
+  "timings": ["On1", "On2"]
+}

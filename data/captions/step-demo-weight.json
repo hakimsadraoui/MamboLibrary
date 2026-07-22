@@ -1,0 +1,22 @@
+{
+  "stepId": "step-demo-weight",
+  "generatedAt": "2026-07-22T06:49:02.047Z",
+  "fromOverrides": false,
+  "cues": [
+    {
+      "start": 2,
+      "end": 6.800000000000001,
+      "text": "Break on two, transfer the weight\ncompletely, and come back on six."
+    },
+    {
+      "start": 6.800000000000001,
+      "end": 10,
+      "text": "The most important detail is the weight\ntransfer."
+    },
+    {
+      "start": 10,
+      "end": 14,
+      "text": "Do not rush it, and keep the supporting\nknee soft."
+    }
+  ]
+}

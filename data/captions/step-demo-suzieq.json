@@ -1,0 +1,47 @@
+{
+  "stepId": "step-demo-suzieq",
+  "generatedAt": "2026-07-22T06:49:02.048Z",
+  "fromOverrides": false,
+  "cues": [
+    {
+      "start": 2,
+      "end": 4.530000000000001,
+      "text": "This one is called the Suzie Q."
+    },
+    {
+      "start": 4.530000000000001,
+      "end": 7.929999999999993,
+      "text": "Cross in front, open, and cross again."
+    },
+    {
+      "start": 7.929999999999993,
+      "end": 11.929999999999993,
+      "text": "Keep the knees soft and rotate from the\ntorso, not from the arms."
+    },
+    {
+      "start": 11.929999999999993,
+      "end": 15.129999999999995,
+      "text": "A common mistake is lifting the heel too\nearly."
+    },
+    {
+      "start": 15.129999999999995,
+      "end": 17.980000000000004,
+      "text": "Keep the heel down until the weight\narrives."
+    },
+    {
+      "start": 18.929999999999993,
+      "end": 20.179999999999993,
+      "text": "Slowly now."
+    },
+    {
+      "start": 20.179999999999993,
+      "end": 22.779999999999987,
+      "text": "Cross, open, cross, open."
+    },
+    {
+      "start": 22.779999999999987,
+      "end": 25.39999999999999,
+      "text": "Keep the pressure into the floor."
+    }
+  ]
+}

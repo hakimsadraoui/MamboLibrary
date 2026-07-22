@@ -1,0 +1,67 @@
+{
+  "stepId": "step-demo-basic",
+  "generatedAt": "2026-07-22T06:49:02.046Z",
+  "fromOverrides": false,
+  "cues": [
+    {
+      "start": 2,
+      "end": 4.4,
+      "text": "This step is called the basic step."
+    },
+    {
+      "start": 4.4,
+      "end": 6.199999999999999,
+      "text": "We dance it on two."
+    },
+    {
+      "start": 6.199999999999999,
+      "end": 8.2,
+      "text": "Start with your left foot."
+    },
+    {
+      "start": 8.2,
+      "end": 13,
+      "text": "Break on two, transfer the weight\ncompletely, and come back on six."
+    },
+    {
+      "start": 13,
+      "end": 16.2,
+      "text": "The most important detail is the weight\ntransfer."
+    },
+    {
+      "start": 16.2,
+      "end": 20.2,
+      "text": "Do not rush it, and keep the supporting\nknee soft."
+    },
+    {
+      "start": 21.400000000000002,
+      "end": 24.080000000000002,
+      "text": "Let us do it slowly with the counts."
+    },
+    {
+      "start": 24.080000000000002,
+      "end": 27.680000000000003,
+      "text": "Five, six, seven, eight."
+    },
+    {
+      "start": 27.680000000000003,
+      "end": 32.480000000000004,
+      "text": "One, two, three, four, five, six, seven,\neight."
+    },
+    {
+      "start": 32.480000000000004,
+      "end": 33.78,
+      "text": "One more time."
+    },
+    {
+      "start": 33.78,
+      "end": 38.879999999999995,
+      "text": "One, two, three, four, five, six, seven,\neight."
+    },
+    {
+      "start": 40.379999999999995,
+      "end": 43.129999999999995,
+      "text": "Now with the music. Here we go."
+    }
+  ]
+}
