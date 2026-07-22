@@ -1,2 +1,2 @@
 id,proposedName,confidence,reason,suggestedAlternatives,sourceFile,sourceTimestamp,clipPreview,thumbnail
-step-demo-unknown1,Unnamed Step — Requires Review,0.3,"Step name inaudible (very quiet, unclear audio; transcript confidence low). Name, category, level and clip boundaries all need human confirmation.",,Mambo Fundamentals - Demo Lesson.mp4,00:02:05.28–00:02:13.0,not rendered,not rendered
+step-demo-unknown1,Unnamed Step — Requires Review,0.3,"Step name inaudible (very quiet, unclear audio; transcript confidence low). Name, category, level and clip boundaries all need human confirmation.",,Mambo Fundamentals - Demo Lesson.mp4,00:02:05.28–00:02:13.0,public/clips/demo-unnamed-step-01.mp4,public/thumbnails/demo-unnamed-step-01.jpg

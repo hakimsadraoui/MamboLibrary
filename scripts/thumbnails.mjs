@@ -67,20 +67,16 @@ const main = async () => {
   fs.mkdirSync(PATHS.thumbFrames, {recursive: true});
   fs.mkdirSync(PATHS.publicThumbs, {recursive: true});
 
-  console.log('Bundling Remotion project …');
-  const serveUrl = await bundle({
-    entryPoint: PATHS.entry,
-    publicDir: PATHS.public,
-    onProgress: () => {},
-  });
-
+  // Extract every frame BEFORE bundling — bundle() snapshots public/, so
+  // frames written afterwards would 404 inside the render server.
+  const renderable = [];
   for (const step of targets) {
     const source = sources.find((s) => s.id === step.sourceVideo);
     if (!source) {
       console.warn(`  ! ${step.id}: source ${step.sourceVideo} not found, skipping`);
       continue;
     }
-    console.log(`Thumbnail for ${step.title} …`);
+    console.log(`Extracting frame for ${step.title} (t=${step.thumbnailTime ?? 0}s) …`);
     const framePath = path.join(PATHS.thumbFrames, `${step.id}.png`);
     const input = path.join(PATHS.sourceVideos, source.path);
     await execFileAsync('ffmpeg', [
@@ -91,6 +87,18 @@ const main = async () => {
       '-vf', 'scale=1280:-2',
       framePath,
     ], {maxBuffer: 32 * 1024 * 1024});
+    renderable.push(step);
+  }
+
+  console.log('Bundling Remotion project …');
+  const serveUrl = await bundle({
+    entryPoint: PATHS.entry,
+    publicDir: PATHS.public,
+    onProgress: () => {},
+  });
+
+  for (const step of renderable) {
+    console.log(`Thumbnail for ${step.title} …`);
 
     const inputProps = {
       frameImage: `thumbnails/.frames/${step.id}.png`,

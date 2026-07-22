@@ -6,7 +6,7 @@
       "Mambo Basic",
       "On2 Basic"
     ],
-    "slug": "basic-step",
+    "slug": "demo-basic-step",
     "type": "step",
     "category": "Foundation",
     "subcategory": "Core basics",
@@ -33,7 +33,7 @@
     "explanationStartTime": "00:00:13.2",
     "slowDemoStartTime": "00:00:32.9",
     "musicDemoStartTime": "00:00:51.9",
-    "durationSeconds": 0,
+    "durationSeconds": 58.03,
     "summary": "SYNTHETIC DEMO CLIP (pipeline validation). The On2 basic: break on 2, full weight transfer, return on 6, with a slow counted demonstration and a music demonstration.",
     "keyTechniquePoints": [
       "Transfer the weight completely on every step",
@@ -53,9 +53,9 @@
     "confidence": 0.95,
     "reviewRequired": false,
     "reviewReason": "",
-    "clipPath": "",
-    "thumbnailPath": "",
-    "captionsPath": "captions/basic-step.vtt",
+    "clipPath": "clips/demo-basic-step.mp4",
+    "thumbnailPath": "thumbnails/demo-basic-step.jpg",
+    "captionsPath": "captions/demo-basic-step.vtt",
     "sections": [
       {
         "kind": "explanation",
@@ -111,7 +111,7 @@
     "burnCaptions": false,
     "demo": true,
     "addedAt": "2026-07-22T07:00:00.000Z",
-    "updatedAt": "2026-07-22T07:00:00.000Z"
+    "updatedAt": "2026-07-22T06:53:49.348Z"
   },
   {
     "id": "step-demo-weight",
@@ -119,10 +119,10 @@
     "aliases": [
       "Weight change drill"
     ],
-    "slug": "weight-transfer-technique",
+    "slug": "demo-weight-transfer-technique",
     "type": "technique",
     "category": "Timing and Weight Transfer",
-    "subcategory": "",
+    "subcategory": "Balance drills",
     "level": "Improver",
     "timing": "On2",
     "counts": "",
@@ -146,7 +146,7 @@
     "explanationStartTime": "00:00:19.4",
     "slowDemoStartTime": "",
     "musicDemoStartTime": "",
-    "durationSeconds": 0,
+    "durationSeconds": 18.4,
     "summary": "SYNTHETIC DEMO CLIP (pipeline validation). Focused technical extract: complete weight transfer with a soft supporting knee — the detail that makes the basic step work.",
     "keyTechniquePoints": [
       "Arrive fully over the standing foot",
@@ -166,9 +166,9 @@
     "confidence": 0.85,
     "reviewRequired": false,
     "reviewReason": "",
-    "clipPath": "",
-    "thumbnailPath": "",
-    "captionsPath": "captions/weight-transfer-technique.vtt",
+    "clipPath": "clips/demo-weight-transfer-technique.mp4",
+    "thumbnailPath": "thumbnails/demo-weight-transfer-technique.jpg",
+    "captionsPath": "captions/demo-weight-transfer-technique.vtt",
     "sections": [
       {
         "kind": "explanation",
@@ -197,7 +197,7 @@
     "burnCaptions": false,
     "demo": true,
     "addedAt": "2026-07-22T07:00:00.000Z",
-    "updatedAt": "2026-07-22T07:00:00.000Z"
+    "updatedAt": "2026-07-22T08:03:51.450Z"
   },
   {
     "id": "step-demo-suzieq",
@@ -206,7 +206,7 @@
       "Susie Q",
       "Suzy Q"
     ],
-    "slug": "suzie-q",
+    "slug": "demo-suzie-q",
     "type": "step",
     "category": "Mambo Footwork",
     "subcategory": "Crossing actions",
@@ -233,7 +233,7 @@
     "explanationStartTime": "00:01:06.67",
     "slowDemoStartTime": "00:01:24.15",
     "musicDemoStartTime": "",
-    "durationSeconds": 0,
+    "durationSeconds": 29.97,
     "summary": "SYNTHETIC DEMO CLIP (pipeline validation). The Suzie Q crossing action: cross in front, open, cross again — rotation from the torso, heel down until the weight arrives.",
     "keyTechniquePoints": [
       "Rotate from the torso, not the arms",
@@ -253,9 +253,9 @@
     "confidence": 0.92,
     "reviewRequired": false,
     "reviewReason": "",
-    "clipPath": "",
-    "thumbnailPath": "",
-    "captionsPath": "captions/suzie-q.vtt",
+    "clipPath": "clips/demo-suzie-q.mp4",
+    "thumbnailPath": "thumbnails/demo-suzie-q.jpg",
+    "captionsPath": "captions/demo-suzie-q.vtt",
     "sections": [
       {
         "kind": "explanation",
@@ -290,13 +290,13 @@
     "burnCaptions": true,
     "demo": true,
     "addedAt": "2026-07-22T07:00:00.000Z",
-    "updatedAt": "2026-07-22T07:00:00.000Z"
+    "updatedAt": "2026-07-22T06:56:27.946Z"
   },
   {
     "id": "step-demo-combo1",
     "title": "Basic into Suzie Q Combination",
     "aliases": [],
-    "slug": "basic-suzie-q-combination",
+    "slug": "demo-basic-suzie-q-combination",
     "type": "combination",
     "category": "Combinations",
     "subcategory": "",
@@ -322,7 +322,7 @@
     "explanationStartTime": "00:01:32.12",
     "slowDemoStartTime": "",
     "musicDemoStartTime": "00:01:49.67",
-    "durationSeconds": 0,
+    "durationSeconds": 37.1,
     "summary": "SYNTHETIC DEMO CLIP (pipeline validation). Short combination: basic step, two Suzie Qs, finish with a right turn — turn preparation on 6.",
     "keyTechniquePoints": [
       "Prepare the right turn on 6",
@@ -342,9 +342,9 @@
     "confidence": 0.9,
     "reviewRequired": false,
     "reviewReason": "",
-    "clipPath": "",
-    "thumbnailPath": "",
-    "captionsPath": "captions/basic-suzie-q-combination.vtt",
+    "clipPath": "clips/demo-basic-suzie-q-combination.mp4",
+    "thumbnailPath": "thumbnails/demo-basic-suzie-q-combination.jpg",
+    "captionsPath": "captions/demo-basic-suzie-q-combination.vtt",
     "sections": [
       {
         "kind": "explanation",
@@ -373,13 +373,13 @@
     "burnCaptions": false,
     "demo": true,
     "addedAt": "2026-07-22T07:00:00.000Z",
-    "updatedAt": "2026-07-22T07:00:00.000Z"
+    "updatedAt": "2026-07-22T06:58:26.638Z"
   },
   {
     "id": "step-demo-unknown1",
     "title": "Unnamed Step — Requires Review",
     "aliases": [],
-    "slug": "unnamed-step-requires-review-01",
+    "slug": "demo-unnamed-step-01",
     "type": "step",
     "category": "Extra+",
     "subcategory": "",
@@ -401,7 +401,7 @@
     "explanationStartTime": "00:02:05.28",
     "slowDemoStartTime": "",
     "musicDemoStartTime": "",
-    "durationSeconds": 0,
+    "durationSeconds": 12.93,
     "summary": "SYNTHETIC DEMO CLIP (pipeline validation). The instructor mentions a step but the audio is very quiet and the name is inaudible. Kept unpublished-quality on purpose to exercise the review queue.",
     "keyTechniquePoints": [],
     "commonMistakes": [],
@@ -413,9 +413,9 @@
     "confidence": 0.3,
     "reviewRequired": true,
     "reviewReason": "Step name inaudible (very quiet, unclear audio; transcript confidence low). Name, category, level and clip boundaries all need human confirmation.",
-    "clipPath": "",
-    "thumbnailPath": "",
-    "captionsPath": "captions/unnamed-step-requires-review-01.vtt",
+    "clipPath": "clips/demo-unnamed-step-01.mp4",
+    "thumbnailPath": "thumbnails/demo-unnamed-step-01.jpg",
+    "captionsPath": "captions/demo-unnamed-step-01.vtt",
     "sections": [
       {
         "kind": "other",
@@ -430,6 +430,6 @@
     "burnCaptions": false,
     "demo": true,
     "addedAt": "2026-07-22T07:00:00.000Z",
-    "updatedAt": "2026-07-22T07:00:00.000Z"
+    "updatedAt": "2026-07-22T07:57:59.050Z"
   }
 ]

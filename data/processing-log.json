@@ -31,12 +31,193 @@
       "missingTranscript": 0
     },
     {
-      "at": "2026-07-22T06:50:57.919Z",
+      "at": "2026-07-22T07:57:59.051Z",
+      "event": "render",
+      "rendered": [
+        "step-demo-unknown1"
+      ]
+    },
+    {
+      "at": "2026-07-22T07:59:02.344Z",
+      "event": "thumbnails",
+      "rendered": [
+        "step-demo-weight",
+        "step-demo-suzieq",
+        "step-demo-combo1",
+        "step-demo-unknown1"
+      ]
+    },
+    {
+      "at": "2026-07-22T07:59:54.544Z",
+      "event": "qa",
+      "pass": 5,
+      "warn": 0,
+      "fail": 0
+    },
+    {
+      "at": "2026-07-22T07:59:54.794Z",
+      "event": "manifest",
+      "steps": 5,
+      "review": 1,
+      "duplicates": 0
+    },
+    {
+      "at": "2026-07-22T08:00:04.598Z",
+      "event": "audit",
+      "added": 0,
+      "updated": 0,
+      "total": 1
+    },
+    {
+      "at": "2026-07-22T08:00:04.678Z",
+      "event": "prep",
+      "prepped": 0
+    },
+    {
+      "at": "2026-07-22T08:00:05.082Z",
+      "event": "captions",
+      "built": 5,
+      "missingTranscript": 0
+    },
+    {
+      "at": "2026-07-22T08:00:17.670Z",
+      "event": "qa",
+      "pass": 5,
+      "warn": 0,
+      "fail": 0
+    },
+    {
+      "at": "2026-07-22T08:00:17.752Z",
+      "event": "manifest",
+      "steps": 5,
+      "review": 1,
+      "duplicates": 0
+    },
+    {
+      "at": "2026-07-22T08:02:22.757Z",
+      "event": "captions",
+      "built": 5,
+      "missingTranscript": 0
+    },
+    {
+      "at": "2026-07-22T08:02:35.292Z",
+      "event": "qa",
+      "pass": 5,
+      "warn": 0,
+      "fail": 0
+    },
+    {
+      "at": "2026-07-22T08:02:35.555Z",
+      "event": "manifest",
+      "steps": 5,
+      "review": 1,
+      "duplicates": 0
+    },
+    {
+      "at": "2026-07-22T08:02:42.035Z",
+      "event": "revise",
+      "stepId": "step-demo-weight",
+      "fields": [
+        "subcategory"
+      ]
+    },
+    {
+      "at": "2026-07-22T08:02:42.113Z",
+      "event": "captions",
+      "built": 5,
+      "missingTranscript": 0
+    },
+    {
+      "at": "2026-07-22T08:03:51.452Z",
+      "event": "render",
+      "rendered": [
+        "step-demo-weight"
+      ]
+    },
+    {
+      "at": "2026-07-22T08:03:56.431Z",
+      "event": "thumbnails",
+      "rendered": [
+        "step-demo-weight"
+      ]
+    },
+    {
+      "at": "2026-07-22T08:04:07.636Z",
+      "event": "qa",
+      "pass": 5,
+      "warn": 0,
+      "fail": 0
+    },
+    {
+      "at": "2026-07-22T08:04:07.714Z",
       "event": "manifest",
       "steps": 5,
       "review": 1,
       "duplicates": 0
     }
   ],
-  "renders": {}
+  "renders": {
+    "step-demo-basic": {
+      "hash": "4330ea50653dc69f189ff42c0fd345624f128769",
+      "renderedAt": "2026-07-22T06:53:49.350Z",
+      "durationInFrames": 1741,
+      "fps": 30,
+      "output": "clips/demo-basic-step.mp4",
+      "status": "success"
+    },
+    "step-demo-weight": {
+      "hash": "2e2f6e3629cc698c69987a7623eccd81c38b92df",
+      "renderedAt": "2026-07-22T08:03:51.451Z",
+      "durationInFrames": 552,
+      "fps": 30,
+      "output": "clips/demo-weight-transfer-technique.mp4",
+      "status": "success"
+    },
+    "step-demo-suzieq": {
+      "hash": "48f0f964fa902e75f1ea806b516728d1e0a9006c",
+      "renderedAt": "2026-07-22T06:56:27.947Z",
+      "durationInFrames": 899,
+      "fps": 30,
+      "output": "clips/demo-suzie-q.mp4",
+      "status": "success"
+    },
+    "step-demo-combo1": {
+      "hash": "d414bd75b377560ba8ba008b7cdf7b20c15528f2",
+      "renderedAt": "2026-07-22T06:58:26.639Z",
+      "durationInFrames": 1113,
+      "fps": 30,
+      "output": "clips/demo-basic-suzie-q-combination.mp4",
+      "status": "success"
+    },
+    "step-demo-unknown1": {
+      "hash": "1b189645d1c3ea8f01b853c0a2a17fb2c7197e22",
+      "renderedAt": "2026-07-22T07:57:59.050Z",
+      "durationInFrames": 388,
+      "fps": 30,
+      "output": "clips/demo-unnamed-step-01.mp4",
+      "status": "success"
+    }
+  },
+  "thumbnails": {
+    "step-demo-basic": {
+      "hash": "1be1571c36f4639a406309419c2013ad71e1d9f4",
+      "renderedAt": "2026-07-22T07:58:28.238Z"
+    },
+    "step-demo-weight": {
+      "hash": "00bd6ced56c87754e71091c04bb59bd1f0d79cec",
+      "renderedAt": "2026-07-22T08:03:56.426Z"
+    },
+    "step-demo-suzieq": {
+      "hash": "031bf6c3e8fa3da22ea52c1cfe137ad454715e6b",
+      "renderedAt": "2026-07-22T07:59:00.238Z"
+    },
+    "step-demo-combo1": {
+      "hash": "19e4ec5c9d2d7a900eda429b779b49b5c500b0c0",
+      "renderedAt": "2026-07-22T07:59:01.306Z"
+    },
+    "step-demo-unknown1": {
+      "hash": "6edf8e68776cf290b19b9fb2ad136f50d84deff9",
+      "renderedAt": "2026-07-22T07:59:02.338Z"
+    }
+  }
 }

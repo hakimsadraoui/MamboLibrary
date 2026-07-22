@@ -1,20 +1,8 @@
 {
-  "generatedAt": "2026-07-22T06:50:57.919Z",
+  "generatedAt": "2026-07-22T08:04:07.714Z",
   "totalSteps": 5,
   "reviewCount": 1,
   "lastPipelineEvents": [
-    {
-      "at": "2026-07-22T06:44:01.783Z",
-      "event": "audit",
-      "added": 1,
-      "updated": 0,
-      "total": 1
-    },
-    {
-      "at": "2026-07-22T06:44:02.606Z",
-      "event": "prep",
-      "prepped": 1
-    },
     {
       "at": "2026-07-22T06:48:24.853Z",
       "event": "segment",
@@ -32,6 +20,124 @@
       "event": "captions",
       "built": 5,
       "missingTranscript": 0
+    },
+    {
+      "at": "2026-07-22T07:57:59.051Z",
+      "event": "render",
+      "rendered": [
+        "step-demo-unknown1"
+      ]
+    },
+    {
+      "at": "2026-07-22T07:59:02.344Z",
+      "event": "thumbnails",
+      "rendered": [
+        "step-demo-weight",
+        "step-demo-suzieq",
+        "step-demo-combo1",
+        "step-demo-unknown1"
+      ]
+    },
+    {
+      "at": "2026-07-22T07:59:54.544Z",
+      "event": "qa",
+      "pass": 5,
+      "warn": 0,
+      "fail": 0
+    },
+    {
+      "at": "2026-07-22T07:59:54.794Z",
+      "event": "manifest",
+      "steps": 5,
+      "review": 1,
+      "duplicates": 0
+    },
+    {
+      "at": "2026-07-22T08:00:04.598Z",
+      "event": "audit",
+      "added": 0,
+      "updated": 0,
+      "total": 1
+    },
+    {
+      "at": "2026-07-22T08:00:04.678Z",
+      "event": "prep",
+      "prepped": 0
+    },
+    {
+      "at": "2026-07-22T08:00:05.082Z",
+      "event": "captions",
+      "built": 5,
+      "missingTranscript": 0
+    },
+    {
+      "at": "2026-07-22T08:00:17.670Z",
+      "event": "qa",
+      "pass": 5,
+      "warn": 0,
+      "fail": 0
+    },
+    {
+      "at": "2026-07-22T08:00:17.752Z",
+      "event": "manifest",
+      "steps": 5,
+      "review": 1,
+      "duplicates": 0
+    },
+    {
+      "at": "2026-07-22T08:02:22.757Z",
+      "event": "captions",
+      "built": 5,
+      "missingTranscript": 0
+    },
+    {
+      "at": "2026-07-22T08:02:35.292Z",
+      "event": "qa",
+      "pass": 5,
+      "warn": 0,
+      "fail": 0
+    },
+    {
+      "at": "2026-07-22T08:02:35.555Z",
+      "event": "manifest",
+      "steps": 5,
+      "review": 1,
+      "duplicates": 0
+    },
+    {
+      "at": "2026-07-22T08:02:42.035Z",
+      "event": "revise",
+      "stepId": "step-demo-weight",
+      "fields": [
+        "subcategory"
+      ]
+    },
+    {
+      "at": "2026-07-22T08:02:42.113Z",
+      "event": "captions",
+      "built": 5,
+      "missingTranscript": 0
+    },
+    {
+      "at": "2026-07-22T08:03:51.452Z",
+      "event": "render",
+      "rendered": [
+        "step-demo-weight"
+      ]
+    },
+    {
+      "at": "2026-07-22T08:03:56.431Z",
+      "event": "thumbnails",
+      "rendered": [
+        "step-demo-weight"
+      ]
+    },
+    {
+      "at": "2026-07-22T08:04:07.636Z",
+      "event": "qa",
+      "pass": 5,
+      "warn": 0,
+      "fail": 0
     }
   ]
 }
