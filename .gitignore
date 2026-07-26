@@ -1,0 +1,4 @@
+# installed skill suites (reproducible via skills-lock.json + `npx skills add`)
+.agents/
+.claude/
+node_modules/
