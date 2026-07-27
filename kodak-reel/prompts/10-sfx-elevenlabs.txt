@@ -1,0 +1,19 @@
+SOUND EFFECTS  —  ElevenLabs
+============================
+
+Generate each effect from a short text description in Sound Effects mode — keep them tight and punchy. This reel is about cameras, so lean mechanical: every hit should sound like a moving part, not a synth.
+
+- Whooshes: "fast cinematic whoosh transition" — a long one for the zoom-through in Scene 1, a quick one for pans.
+
+- Camera shutter: "vintage 35mm camera shutter, single snap" — for the museum-photo opener.
+
+- Film advance: "manual film advance lever ratchet, mechanical" — sits under the slot-machine spin in Scene 2.
+
+- Projector clatter: "16mm film projector running, steady mechanical clatter" — a low loop under Scene 3 while the papers land.
+
+- Fluorescent cut: "fluorescent tube switching off, electrical thunk" — the one-frame window kill in Scene 4.
+
+- Notification burst: "short digital notification chime, bright" — retrigger it on each phone flicker in Scene 5.
+
+- Drawer slam: "metal filing cabinet drawer slamming shut, heavy, with rattle" — the finale. This is the loudest thing in the reel; everything else should duck under it.
+Then trim each clip to its attack so the hit is on the beat, never a frame early.

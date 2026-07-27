@@ -1,0 +1,13 @@
+VOICEOVER  —  ElevenLabs
+========================
+
+Paste the six-line script into Text-to-Speech and generate the whole VO in one go — no mic, no recording booth.
+
+- Voice: "Hey It's Brad — Clear Narrator for Documentary" — calm, even, a touch of warmth.
+
+- Model: Multilingual v2.
+
+- Settings: stability 50, similarity 75, style 11 — steady enough to trust, expressive enough to sell the story.
+
+- One tweak for this script: line 6 is the punchline and it's short. Generate it a second time on its own with style bumped to ~20 and drop that take in, so "then locked it in a drawer" lands a shade drier than the rest.
+Export the MP3. This becomes the timeline — I cut every scene to the pauses between these lines.

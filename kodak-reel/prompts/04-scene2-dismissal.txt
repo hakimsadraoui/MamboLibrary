@@ -1,0 +1,17 @@
+PROMPT · SCENE 2  —  Claude Code
+================================
+
+Build Scene 2, the dismissal. Assets: exec.png (a smug 1970s executive cut-out, cigarette in hand), kodak-logo.png, hand-left.png / hand-right.png (a hand holding the prototype camera, a hand holding a roll of 35mm film), smoke.mp4 (a smoke plume shot on black). Backdrop is a Kodak-yellow sunburst — a deep radial gradient from #F2B01E through #C4820F to #6E4707, with faint rays. Beats (30fps):
+
+- Exec: rises up with a spring around frame 84, punches in to 1.09× scale over frames 96–116, and holds with a gentle back-and-forth sway.
+
+- Cigarette smoke: overlay smoke.mp4 with mix-blend-mode screen so the black drops out, then crush its contrast to true-black the lifted background and feather the top edge with a mask gradient so the plume trails off. Anchor its base to the cigarette ember, fade it in, and move it with the exec so it stays glued to his hand.
+
+- The two props: the prototype hand slides in from one edge around frame 17, the film-roll hand from the opposite edge around frame 47 — each framed by a hand-drawn wireframe diamond that draws on with a dashed stroke and wobbles on an 8fps boil. These two are the whole argument of the scene: the future in one hand, the cash cow in the other.
+
+- "0.01 MEGAPIXELS": a slot-machine reel spins values past (gigapixels / kilopixels / megapixels) from frames 72–82 and slams to a stop on MEGAPIXELS, with "0.01" locking in first. The joke is that the number is pathetic — hold on it a beat.
+
+- Yellow caption: a marigold caption box pops "don't tell" then "anyone" over frames 130–163.
+
+- The punctuation: at frame 165 flicker the whole frame to a hold-keyframe photographic negative (invert + hue shift, a few 2–3 frame bursts) — this is a film story, so the negative flash should read as a contact sheet, not a glitch; at frame 174 push the exec to black-and-white and bloom a darkroom-red safelight glow out of his eyes.
+Wrap it in the film-look treatment and run everything on the 12fps posterize step.

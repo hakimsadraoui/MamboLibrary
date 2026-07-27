@@ -1,0 +1,14 @@
+PROMPT · SCENE 6  —  Claude Code
+================================
+
+Build Scene 6, the finale, by cloning Scene 4 — keep the parallax punch anchored to the feet, the cast shadow, the camera push, the film treatment and the posterize exactly as they are. Then reskin it. Timings (30fps):
+
+- Swap the character: replace the defeated exec with old-sasson.png (the same engineer, decades older, holding the original prototype) and fix his aspect ratio — he's taller and narrower than the old cut-out (about 2752×1536 instead of 3072×2048). Put him back on lab-bg.png, the same 1975 lab from Scene 1, now stripped and empty — we end where we started. Keep him centred this time — no shift.
+
+- Swap the words: stack "Kodak invented / the future" on the left from frame 8, and fade "then filed it away" in on the left around frames 40–48.
+
+- The drawer (the new part): around frame 24 bring a steel filing-cabinet drawer (drawer.svg) in from the right at chest height — slide it in and scale it from 0.72 to 1 over ~12 frames — then slam it shut and let it rattle: a decaying oscillation on X, roughly 34px × cos(t × 0.6) × e^(−0.05t), so it overshoots, bounces back and settles. Same decaying-swing rig as any wag or wobble, just travel instead of rotation. Render it in front of the man, about 320px wide, sitting under the left caption. On the frame it slams, puff a small grey dust cloud out of the seam — three soft blurred circles that scale up and fade over ~10 frames.
+
+- The last frame: 6 frames after the drawer settles, cut the whole frame to a photographic negative for 2 frames, then back. One blink, and out.
+
+- Keep everything else identical: grade saturate 0.6 / contrast 1.12 / sepia 0.1 / brightness 0.92, the punch to 1.7× by frame 58, the shadow skewed −53° at 55% opacity, and the 12fps posterize.

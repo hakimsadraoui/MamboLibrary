@@ -1,0 +1,16 @@
+PROMPT · SCENE 5  —  Claude Code
+================================
+
+Build Scene 5, the payoff. This is the other side of the trade — thirteen people in a rented loft outselling a hundred-year-old empire. Assets are five flat plates from one PSD: loft-bg.png (a bare startup loft, brick and cable), founder-char.png (a founder slouched in a chair), loft-desk.png (a desk with a phone and a laptop), phone-cut.png (just the phone, cut out) and lamp.png (a hanging lamp). Stack them bg → character → desk. Timings (30fps):
+
+- Lamp light (drawn, not photographed): at the lamp's bulb (~x590 / y345) stack four soft radial gradients on screen blend — a small white-hot core, a wider warm bloom halo, a flat glow at the shade mouth, and a big faint ambient spill. Also send one blurred funnel beam down behind the character to catch the brick, with its hard edges faded off by a side mask. Parent all of it to the lamp and swing the whole thing gently (~±3° over ~2s) so the light sways with the pendulum.
+
+- Make the light respond to focus: when the lens defocuses, bloom the hot core to about 2.4× into a soft bokeh disc and grow the halo — otherwise the glow looks untreated through the blur.
+
+- Phone highlight: duplicate the phone cut-out, recolor its screen bright chartreuse with sepia 1 / saturate 5 / hue-rotate 18°, and flicker it on with hold-keyframes (instant on/off, no fades): on frames 23–28, off 29–31, on 32–61, off 62–63, on 64–71, then gone. It should read like a notification storm, not a lamp.
+
+- Headline: serif-italic "A billion / dollars / thirteen employees", the words fading up staggered from frame 9 to 54, with a hand-drawn yellow pencil oval that scribbles on around "billion" over frames 31–40.
+
+- The counter-tell: in the bottom corner, hold a small serif line "not one roll of film" from frame 72, and let a single 35mm canister roll slowly out of frame past it — the last one, leaving.
+
+- Camera: a vintage focus-hunt — open wide at 0.88× and defocused, whoosh in to 1.0 as focus clears by frame 21, dip out of focus again around 43–63, then creep slowly to 1.08 on the money shot. Grade saturate 0.86 / contrast 1.04 / sepia 0.12 / brightness 0.95, then the film treatment and 12fps posterize.
