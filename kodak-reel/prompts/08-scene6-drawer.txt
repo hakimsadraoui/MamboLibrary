@@ -3,7 +3,7 @@ PROMPT · SCENE 6  —  Claude Code
 
 Build Scene 6, the finale, by cloning Scene 4 — keep the parallax punch anchored to the feet, the cast shadow, the camera push, the film treatment and the posterize exactly as they are. Then reskin it. Timings (30fps):
 
-- Swap the character: replace the defeated exec with old-sasson.png (the same engineer, decades older, holding the original prototype) and fix his aspect ratio — he's taller and narrower than the old cut-out (about 2752×1536 instead of 3072×2048). Put him back on lab-bg.png, the same 1975 lab from Scene 1, now stripped and empty — we end where we started. Keep him centred this time — no shift.
+- Swap the character: replace the defeated exec with old-sasson.png (the same engineer, decades older, holding the original prototype) and fix his aspect ratio — he's taller and narrower than the old cut-out (1696×2528 instead of 1792×2400), so reusing Scene 4's width will stretch him. Put him back on lab-bg.png, the same 1975 lab from Scene 1, now stripped and empty — we end where we started. Keep him centred this time — no shift.
 
 - Swap the words: stack "Kodak invented / the future" on the left from frame 8, and fade "then filed it away" in on the left around frames 40–48.
 

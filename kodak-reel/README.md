@@ -21,8 +21,14 @@ That's the full walkthrough: every prompt in build order, plus interactive break
 | `how-to-kodak-reel.html` | The walkthrough. **Read this first.** |
 | `prompts/` | Every prompt as a copy-paste `.txt`, numbered in build order. `ALL-PROMPTS.txt` has them all in one file. |
 | `build-assets/` | The topic-neutral source files carried over from the Netflix kit — the two film textures, the paper wall, the wood desk, the gold frame. Drop these into your Remotion project's `public/assets/`. |
+| `build-assets/ASSETS.md` | The manifest for the story-specific assets: every job ID, every prompt, and how to pull them down. |
 
-The rest of the assets are story-specific and you generate them yourself — the full list, with what each one is and where to get it, is in the **asset sheet** section of the walkthrough.
+All seventeen story-specific assets have been generated with **Nano Banana Pro** and the
+twelve that need it background-removed into clean cut-outs — but they are **not committed
+here.** The session that made them couldn't download them past this environment's egress
+policy, which also means none of them has been visually checked. `build-assets/ASSETS.md`
+has the job ID and the exact prompt for every one, so you can either save them out of
+Higgsfield or allowlist the CDN host and fetch the lot in one pass.
 
 ---
 
