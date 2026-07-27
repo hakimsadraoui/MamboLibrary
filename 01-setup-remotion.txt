@@ -1,0 +1,4 @@
+PROMPT · REMOTION SETUP  —  Claude Code
+=======================================
+
+Set up a new Remotion project for a vertical documentary reel — 1080×1920 at 30fps, with one composition and one file per scene so I can build and preview each on its own, plus a shared engine file that every scene imports. In that shared file, give me the motion helpers I'll reuse everywhere: a posterize-time helper that snaps the current frame to 12fps steps so movement stutters like stop-motion instead of gliding; a boil wobble; a slow drift; a pingpong oscillator; and a spring entrance for things popping into place. Set it up so I can drop each finished scene onto one main timeline later.

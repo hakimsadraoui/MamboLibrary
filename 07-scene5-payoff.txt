@@ -1,0 +1,14 @@
+PROMPT · SCENE 5  —  Claude Code
+================================
+
+Build Scene 5, the payoff. Assets are five flat plates from one PSD: office-bg.png (a study with a bookshelf), office-char.png (Reed in a chair), office-desk.png (desk with stacked cash), office-cash.png (just the cash, cut out) and lamp.png (a hanging lamp). Stack them bg → character → desk. Timings (30fps):
+
+- Lamp light (drawn, not photographed): at the lamp's bulb (~x590 / y345) stack four soft radial gradients on screen blend — a small white-hot core, a wider warm bloom halo, a flat glow at the shade mouth, and a big faint ambient spill. Also send one blurred funnel beam down behind the character to catch the bookshelf, with its hard edges faded off by a side mask. Parent all of it to the lamp and swing the whole thing gently (~±3° over ~2s) so the light sways with the pendulum.
+
+- Make the light respond to focus: when the lens defocuses, bloom the hot core to about 2.4× into a soft bokeh disc and grow the halo — otherwise the glow looks untreated through the blur.
+
+- Cash highlight: duplicate the cash cut-out, recolor it bright chartreuse with sepia 1 / saturate 5 / hue-rotate 18°, and flicker it on with hold-keyframes (instant on/off, no fades): on frames 23–28, off 29–31, on 32–61, off 62–63, on 64–71, then gone.
+
+- Headline: serif-italic "Forty five / billion / dollars in revenue", the words fading up staggered from frame 9 to 54, with a hand-drawn yellow pencil oval that scribbles on around "billion" over frames 31–40.
+
+- Camera: a vintage focus-hunt — open wide at 0.88× and defocused, whoosh in to 1.0 as focus clears by frame 21, dip out of focus again around 43–63, then creep slowly to 1.08 on the money shot. Grade saturate 0.82 / contrast 1.06 / sepia 0.14 / brightness 0.93, then the film treatment and 12fps posterize.

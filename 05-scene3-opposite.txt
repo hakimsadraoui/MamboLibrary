@@ -1,0 +1,13 @@
+PROMPT · SCENE 3  —  Claude Code
+================================
+
+Build Scene 3, the opposite. Assets: wood-desk.jpg (a dark wooden desk) and three newspaper front-page cut-outs — news-latefees.png ("NO LATE FEES"), news-stores.png ("NO STORES"), news-customer.png ("CUSTOMER FIRST"). Open on the desk with a quick focus-hunt (a blur clearing over the first ~14 frames) and a slow Ken-Burns push. Then drop the three papers on one at a time — each springs in on a soft spring (low stiffness ~42, a bit of mass ~1.1, so it glides in over ~0.9s and settles with a small bounce rather than snapping), scaling from 1.1 down to 1.0 as it lands, with a subtle stop-motion boil. Timings (30fps):
+
+- NO LATE FEES: slides in from the LEFT at frame 20 — starts way off-screen left and low, rotated ~−26° — and settles around x470 / y980 at −7°.
+
+- NO STORES: drops from the RIGHT at frame 60, landing on top around x620 / y940 at +6°.
+
+- CUSTOMER FIRST: rises from the BOTTOM at frame 100, landing on top at x540 / y1010 at −3°.
+
+- Caption: a serif-italic "built the opposite." at the top that fades in early and out by frame 48.
+Vignette the desk, wrap it in the film-look treatment, and run everything on the 12fps posterize step.

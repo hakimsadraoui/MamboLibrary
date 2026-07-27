@@ -1,0 +1,11 @@
+VOICEOVER  —  ElevenLabs
+========================
+
+Paste the six-line script into Text-to-Speech and generate the whole VO in one go — no mic, no recording booth.
+
+- Voice: "Hey It's Brad — Clear Narrator for Documentary" — calm, even, a touch of warmth.
+
+- Model: Multilingual v2.
+
+- Settings: stability 50, similarity 75, style 11 — steady enough to trust, expressive enough to sell the story.
+Export the MP3. This becomes the timeline — I cut every scene to the pauses between these lines.

@@ -1,0 +1,13 @@
+SOUND EFFECTS  —  ElevenLabs
+============================
+
+Generate each effect from a short text description in Sound Effects mode — keep them tight and punchy:
+
+- Whooshes: "fast cinematic whoosh transition" — a long one for the zoom-through, a quick one for pans.
+
+- Camera shutter: "vintage camera shutter, single snap" — for the museum-photo opener.
+
+- Cha-ching: "bright cash register cha-ching, short" — for the forty-five billion hit.
+
+- Neon buzz: "flickering neon light buzz, electrical hum" — sits under the swinging lamp.
+Then trim each clip to its attack so the hit is on the beat, never a frame early.

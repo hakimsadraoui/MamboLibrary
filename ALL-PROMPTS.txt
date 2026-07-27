@@ -1,0 +1,188 @@
+NETFLIX vs BLOCKBUSTER REEL — ALL PROMPTS
+Copy-paste these into Claude Code in order.
+================================================
+
+
+PROMPT · STORYBOARD  —  Claude Code
+===================================
+
+I'm making a 30-second vertical documentary reel that tells the Netflix vs Blockbuster story. Here's my voiceover — six lines, one per scene:
+
+- 1. In 2000, a small startup called Netflix pitched Blockbuster to buy them out.
+
+- 2. They asked for fifty million dollars — Blockbuster laughed them out of the room.
+
+- 3. So Netflix built the opposite. No late fees. No stores. Customer first.
+
+- 4. Ten years later, Blockbuster closed down a thousand stores and declared bankruptcy.
+
+- 5. Today, Netflix drives forty-five billion dollars a year in revenue — the biggest paid streaming service on Earth.
+
+- 6. This was the most expensive 'no' in history.
+Turn this into a storyboard. For every line, tell me the scene it becomes — what we're looking at, the words that go on screen (pulled straight from the line), the emotional beat, one signature animation, and the exact assets I'll need to make it. Give it to me scene by scene so I can build one at a time.
+
+
+
+PROMPT · REMOTION SETUP  —  Claude Code
+=======================================
+
+Set up a new Remotion project for a vertical documentary reel — 1080×1920 at 30fps, with one composition and one file per scene so I can build and preview each on its own, plus a shared engine file that every scene imports. In that shared file, give me the motion helpers I'll reuse everywhere: a posterize-time helper that snaps the current frame to 12fps steps so movement stutters like stop-motion instead of gliding; a boil wobble; a slow drift; a pingpong oscillator; and a spring entrance for things popping into place. Set it up so I can drop each finished scene onto one main timeline later.
+
+
+
+PROMPT · FILM LOOK  —  Claude Code
+==================================
+
+Build the film-treatment look — a reusable wrapper I can wrap any scene in so it reads like aged film. The textures are in my assets folder (grain.jpg, grunge.jpg). Layer these top to bottom with exactly these settings:
+
+- Scan lines: vertical lines — a 1.6px black line at 16% opacity repeating every 8px, blurred by 0.7px.
+
+- Texture sandwich: grain.jpg on multiply, inverted with brightness 1.35 and contrast 1.02, at 55% opacity; then grunge.jpg on colour-burn at 16% opacity.
+
+- Vignette: a radial gradient — ellipse 92% by 82% centred at 50% / 48%, clear until 55%, fading to black at 50% opacity by the edge.
+
+- Grade: a colour filter of saturate 0.86, contrast 1.08, sepia 0.16, brightness 0.95 — expose those four as props so I can tweak per scene.
+
+- Gate-weave: jitter the whole frame with a stepped wiggle at 12fps, about 5px of travel, and scale everything up 1.012 so the weave never reveals an edge.
+Everything rides the engine's 12fps posterize step. Put a toggle on each layer so I can switch parts off.
+
+
+
+PROMPT · SCENE 1  —  Claude Code
+================================
+
+Build Scene 1, the opener. In the assets folder: hq-building.png (a photo of the Netflix HQ), reed-portrait.png (a young Reed cut-out), gold-frame.png (an ornate gold frame), wall.jpg (a paper museum wall). Compose a black-and-white framed photo — Reed in front of the Netflix building, inside the gold frame — hanging on the wall, with a small serif plaque reading "In 2000" beneath it. Then do a zoom that flies THROUGH the frame, with these timings (30fps):
+
+- Slow push: ease the wall from scale 1.0 to 1.16 over frames 0–46.
+
+- Zoom-through: from frame 46, accelerate the wall scale up to about 6.8× by frame 76 so the camera flies into the frame.
+
+- Weld: until frame 62, lock the photo + gold frame together as one unit — content scale = 0.369 × the wall scale. They must never ease apart before the detach.
+
+- Detach: after frame 62, keep accelerating the gold frame out past the edges while the photo settles from 0.75 to 1.0 scale by frame 72, and cross-fade it from black-and-white to full colour.
+
+- Motion blur: a full-frame blur burst ramping 0 → ~9px → 0 across frames 54 / 61 / 72, peaking at the fastest point.
+
+- Wall exit: blur the wall and plaque 0 → 8px over frames 52–72 and fade them out as the zoom takes over.
+
+- Drifting clouds: behind the building put cloud1.png and cloud2.png sliding slowly left — cloud1 travels from 0 to about −525px across the whole scene, cloud2 at roughly 0.6× that speed so they parallax.
+
+- Character boil: keep the reed-portrait subtly alive — breathe its scale by ±0.5% on a slow sine, and sway it ±0.5° back and forth over ~140 frames, both snapped to the 12fps step so it stutters like stop-motion rather than gliding.
+Then reveal serif-italic captions over the settled building — "a small startup" then "called Netflix". Wrap the whole scene in the film-look treatment and run it on the 12fps posterize step.
+
+
+
+PROMPT · SCENE 2  —  Claude Code
+================================
+
+Build Scene 2, the offer. Assets: boss.png (a cigar-smoking boss cut-out), netflix-logo.png, hand-left.png / hand-right.png (a hand holding the logo, a hand holding cash), smoke.mp4 (a smoke plume shot on black). Backdrop is a red sunburst — a deep radial gradient from #a01218 through #7c0d12 to #58080c, with faint rays. Beats (30fps):
+
+- Boss: rises up with a spring around frame 84, punches in to 1.09× scale over frames 96–116, and holds with a gentle back-and-forth sway.
+
+- Cigar smoke: overlay smoke.mp4 with mix-blend-mode screen so the black drops out, then crush its contrast to true-black the lifted background and feather the top edge with a mask gradient so the plume trails off. Anchor its base to the cigar ember, fade it in, and move it with the boss so it stays glued to the cigar.
+
+- The two props: the logo hand slides in from one edge around frame 17, the cash hand from the opposite edge around frame 47 — each framed by a hand-drawn wireframe diamond that draws on with a dashed stroke and wobbles on an 8fps boil.
+
+- "50 MILLION": a slot-machine reel spins values past (billion / dollars / trillion) from frames 72–82 and slams to a stop on MILLION.
+
+- Yellow caption: a marigold caption box pops "laughed" then "them out" over frames 130–163.
+
+- The punctuation: at frame 165 flicker the whole frame to a hold-keyframe negative (invert + hue shift, a few 2–3 frame bursts); at frame 174 push the boss to black-and-white and burn red light-ray glows out of his eyes.
+Wrap it in the film-look treatment and run everything on the 12fps posterize step.
+
+
+
+PROMPT · SCENE 3  —  Claude Code
+================================
+
+Build Scene 3, the opposite. Assets: wood-desk.jpg (a dark wooden desk) and three newspaper front-page cut-outs — news-latefees.png ("NO LATE FEES"), news-stores.png ("NO STORES"), news-customer.png ("CUSTOMER FIRST"). Open on the desk with a quick focus-hunt (a blur clearing over the first ~14 frames) and a slow Ken-Burns push. Then drop the three papers on one at a time — each springs in on a soft spring (low stiffness ~42, a bit of mass ~1.1, so it glides in over ~0.9s and settles with a small bounce rather than snapping), scaling from 1.1 down to 1.0 as it lands, with a subtle stop-motion boil. Timings (30fps):
+
+- NO LATE FEES: slides in from the LEFT at frame 20 — starts way off-screen left and low, rotated ~−26° — and settles around x470 / y980 at −7°.
+
+- NO STORES: drops from the RIGHT at frame 60, landing on top around x620 / y940 at +6°.
+
+- CUSTOMER FIRST: rises from the BOTTOM at frame 100, landing on top at x540 / y1010 at −3°.
+
+- Caption: a serif-italic "built the opposite." at the top that fades in early and out by frame 48.
+Vignette the desk, wrap it in the film-look treatment, and run everything on the 12fps posterize step.
+
+
+
+PROMPT · SCENE 4  —  Claude Code
+================================
+
+Build Scene 4, the fall. Assets: blockbuster-bg.png (a dying Blockbuster storefront) and sad-man.png (a cut-out of a grim exec in a suit). Both are flat plates — sell depth by animating them, not by adding layers. Anchor everything to one ground point at the man's feet (about x560 / y1690). Timings (30fps):
+
+- Grounded parallax punch: push the building from scale 1.0 to 1.12 over frames 8–80, easing out. Over frames 0–58 punch the man in harder — up to about 1.7× and drifting toward camera — scaling him around his feet, not the frame centre. The man growing faster than the wall is the whole depth illusion.
+
+- The shadow is the man: duplicate the sad-man cut-out, paint it pure black, flip it straight down from his feet and skew it about −53° so it lies along the ground; blur it 7px and drop it to 55% opacity. No separate shadow asset.
+
+- Left line: stack "closed a / 1000 / stores" in serif italic on the left from frame 24, one line every ~6 frames, then fade it back to about 30% as the man moves.
+
+- The shift: around frame 60 slide the man ~235px to the left with a motion-blur streak that peaks mid-move, clearing the right side.
+
+- Right line: reveal "declared bankruptcy" on the right over frames 70–78, draw a hand-drawn yellow underline on beneath it, and tighten a focus vignette around it so the eye lands there.
+
+- Grade: desaturate this one further than the others — saturate 0.62, contrast 1.12, sepia 0.06, brightness 0.94 — for the sombre beat. Then the shared film treatment and the 12fps posterize step.
+
+
+
+PROMPT · SCENE 5  —  Claude Code
+================================
+
+Build Scene 5, the payoff. Assets are five flat plates from one PSD: office-bg.png (a study with a bookshelf), office-char.png (Reed in a chair), office-desk.png (desk with stacked cash), office-cash.png (just the cash, cut out) and lamp.png (a hanging lamp). Stack them bg → character → desk. Timings (30fps):
+
+- Lamp light (drawn, not photographed): at the lamp's bulb (~x590 / y345) stack four soft radial gradients on screen blend — a small white-hot core, a wider warm bloom halo, a flat glow at the shade mouth, and a big faint ambient spill. Also send one blurred funnel beam down behind the character to catch the bookshelf, with its hard edges faded off by a side mask. Parent all of it to the lamp and swing the whole thing gently (~±3° over ~2s) so the light sways with the pendulum.
+
+- Make the light respond to focus: when the lens defocuses, bloom the hot core to about 2.4× into a soft bokeh disc and grow the halo — otherwise the glow looks untreated through the blur.
+
+- Cash highlight: duplicate the cash cut-out, recolor it bright chartreuse with sepia 1 / saturate 5 / hue-rotate 18°, and flicker it on with hold-keyframes (instant on/off, no fades): on frames 23–28, off 29–31, on 32–61, off 62–63, on 64–71, then gone.
+
+- Headline: serif-italic "Forty five / billion / dollars in revenue", the words fading up staggered from frame 9 to 54, with a hand-drawn yellow pencil oval that scribbles on around "billion" over frames 31–40.
+
+- Camera: a vintage focus-hunt — open wide at 0.88× and defocused, whoosh in to 1.0 as focus clears by frame 21, dip out of focus again around 43–63, then creep slowly to 1.08 on the money shot. Grade saturate 0.82 / contrast 1.06 / sepia 0.14 / brightness 0.93, then the film treatment and 12fps posterize.
+
+
+
+PROMPT · SCENE 6  —  Claude Code
+================================
+
+Build Scene 6, the finale, by cloning Scene 4 — keep the parallax punch anchored to the feet, the cast shadow, the camera push, the film treatment and the posterize exactly as they are. Then reskin it. Timings (30fps):
+
+- Swap the character: replace the sad exec with happy-reed.png (a smiling, hands-folded Reed) and fix his aspect ratio — he's taller and narrower than the old cut-out (about 2752×1536 instead of 3072×2048). Put him on street-bg.jpg, the emptied-out Blockbuster street. Keep him centred this time — no shift.
+
+- Swap the words: stack "The most / expensive" on the left from frame 8, and fade "in history" in on the left around frames 40–48.
+
+- The “no” gesture (the new part): around frame 24 bring a red foam finger (red-hand.svg) up from the bottom-right — slide it in and scale it from 0.72 to 1 over ~12 frames — then wag it left-right about the wrist like it's saying "no": a decaying swing, roughly 28° × cos(t × 0.52) × e^(−0.042t). Render it in front of Reed, about 250px, sitting under the left caption.
+
+- Keep everything else identical: grade saturate 0.62 / contrast 1.12 / sepia 0.06 / brightness 0.94, the punch to 1.7× by frame 58, the shadow skewed −53° at 55% opacity, and the 12fps posterize.
+
+
+
+VOICEOVER  —  ElevenLabs
+========================
+
+Paste the six-line script into Text-to-Speech and generate the whole VO in one go — no mic, no recording booth.
+
+- Voice: "Hey It's Brad — Clear Narrator for Documentary" — calm, even, a touch of warmth.
+
+- Model: Multilingual v2.
+
+- Settings: stability 50, similarity 75, style 11 — steady enough to trust, expressive enough to sell the story.
+Export the MP3. This becomes the timeline — I cut every scene to the pauses between these lines.
+
+
+
+SOUND EFFECTS  —  ElevenLabs
+============================
+
+Generate each effect from a short text description in Sound Effects mode — keep them tight and punchy:
+
+- Whooshes: "fast cinematic whoosh transition" — a long one for the zoom-through, a quick one for pans.
+
+- Camera shutter: "vintage camera shutter, single snap" — for the museum-photo opener.
+
+- Cha-ching: "bright cash register cha-ching, short" — for the forty-five billion hit.
+
+- Neon buzz: "flickering neon light buzz, electrical hum" — sits under the swinging lamp.
+Then trim each clip to its attack so the hit is on the beat, never a frame early.

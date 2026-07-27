@@ -1,0 +1,21 @@
+PROMPT · SCENE 1  —  Claude Code
+================================
+
+Build Scene 1, the opener. In the assets folder: hq-building.png (a photo of the Netflix HQ), reed-portrait.png (a young Reed cut-out), gold-frame.png (an ornate gold frame), wall.jpg (a paper museum wall). Compose a black-and-white framed photo — Reed in front of the Netflix building, inside the gold frame — hanging on the wall, with a small serif plaque reading "In 2000" beneath it. Then do a zoom that flies THROUGH the frame, with these timings (30fps):
+
+- Slow push: ease the wall from scale 1.0 to 1.16 over frames 0–46.
+
+- Zoom-through: from frame 46, accelerate the wall scale up to about 6.8× by frame 76 so the camera flies into the frame.
+
+- Weld: until frame 62, lock the photo + gold frame together as one unit — content scale = 0.369 × the wall scale. They must never ease apart before the detach.
+
+- Detach: after frame 62, keep accelerating the gold frame out past the edges while the photo settles from 0.75 to 1.0 scale by frame 72, and cross-fade it from black-and-white to full colour.
+
+- Motion blur: a full-frame blur burst ramping 0 → ~9px → 0 across frames 54 / 61 / 72, peaking at the fastest point.
+
+- Wall exit: blur the wall and plaque 0 → 8px over frames 52–72 and fade them out as the zoom takes over.
+
+- Drifting clouds: behind the building put cloud1.png and cloud2.png sliding slowly left — cloud1 travels from 0 to about −525px across the whole scene, cloud2 at roughly 0.6× that speed so they parallax.
+
+- Character boil: keep the reed-portrait subtly alive — breathe its scale by ±0.5% on a slow sine, and sway it ±0.5° back and forth over ~140 frames, both snapped to the 12fps step so it stutters like stop-motion rather than gliding.
+Then reveal serif-italic captions over the settled building — "a small startup" then "called Netflix". Wrap the whole scene in the film-look treatment and run it on the 12fps posterize step.

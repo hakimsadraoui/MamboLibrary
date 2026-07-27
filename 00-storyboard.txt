@@ -1,0 +1,17 @@
+PROMPT · STORYBOARD  —  Claude Code
+===================================
+
+I'm making a 30-second vertical documentary reel that tells the Netflix vs Blockbuster story. Here's my voiceover — six lines, one per scene:
+
+- 1. In 2000, a small startup called Netflix pitched Blockbuster to buy them out.
+
+- 2. They asked for fifty million dollars — Blockbuster laughed them out of the room.
+
+- 3. So Netflix built the opposite. No late fees. No stores. Customer first.
+
+- 4. Ten years later, Blockbuster closed down a thousand stores and declared bankruptcy.
+
+- 5. Today, Netflix drives forty-five billion dollars a year in revenue — the biggest paid streaming service on Earth.
+
+- 6. This was the most expensive 'no' in history.
+Turn this into a storyboard. For every line, tell me the scene it becomes — what we're looking at, the words that go on screen (pulled straight from the line), the emotional beat, one signature animation, and the exact assets I'll need to make it. Give it to me scene by scene so I can build one at a time.

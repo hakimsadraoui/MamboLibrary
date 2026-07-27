@@ -1,0 +1,17 @@
+PROMPT · SCENE 2  —  Claude Code
+================================
+
+Build Scene 2, the offer. Assets: boss.png (a cigar-smoking boss cut-out), netflix-logo.png, hand-left.png / hand-right.png (a hand holding the logo, a hand holding cash), smoke.mp4 (a smoke plume shot on black). Backdrop is a red sunburst — a deep radial gradient from #a01218 through #7c0d12 to #58080c, with faint rays. Beats (30fps):
+
+- Boss: rises up with a spring around frame 84, punches in to 1.09× scale over frames 96–116, and holds with a gentle back-and-forth sway.
+
+- Cigar smoke: overlay smoke.mp4 with mix-blend-mode screen so the black drops out, then crush its contrast to true-black the lifted background and feather the top edge with a mask gradient so the plume trails off. Anchor its base to the cigar ember, fade it in, and move it with the boss so it stays glued to the cigar.
+
+- The two props: the logo hand slides in from one edge around frame 17, the cash hand from the opposite edge around frame 47 — each framed by a hand-drawn wireframe diamond that draws on with a dashed stroke and wobbles on an 8fps boil.
+
+- "50 MILLION": a slot-machine reel spins values past (billion / dollars / trillion) from frames 72–82 and slams to a stop on MILLION.
+
+- Yellow caption: a marigold caption box pops "laughed" then "them out" over frames 130–163.
+
+- The punctuation: at frame 165 flicker the whole frame to a hold-keyframe negative (invert + hue shift, a few 2–3 frame bursts); at frame 174 push the boss to black-and-white and burn red light-ray glows out of his eyes.
+Wrap it in the film-look treatment and run everything on the 12fps posterize step.

@@ -1,0 +1,15 @@
+PROMPT · FILM LOOK  —  Claude Code
+==================================
+
+Build the film-treatment look — a reusable wrapper I can wrap any scene in so it reads like aged film. The textures are in my assets folder (grain.jpg, grunge.jpg). Layer these top to bottom with exactly these settings:
+
+- Scan lines: vertical lines — a 1.6px black line at 16% opacity repeating every 8px, blurred by 0.7px.
+
+- Texture sandwich: grain.jpg on multiply, inverted with brightness 1.35 and contrast 1.02, at 55% opacity; then grunge.jpg on colour-burn at 16% opacity.
+
+- Vignette: a radial gradient — ellipse 92% by 82% centred at 50% / 48%, clear until 55%, fading to black at 50% opacity by the edge.
+
+- Grade: a colour filter of saturate 0.86, contrast 1.08, sepia 0.16, brightness 0.95 — expose those four as props so I can tweak per scene.
+
+- Gate-weave: jitter the whole frame with a stepped wiggle at 12fps, about 5px of travel, and scale everything up 1.012 so the weave never reveals an edge.
+Everything rides the engine's 12fps posterize step. Put a toggle on each layer so I can switch parts off.

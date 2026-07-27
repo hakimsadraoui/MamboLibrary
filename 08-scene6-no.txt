@@ -1,0 +1,12 @@
+PROMPT · SCENE 6  —  Claude Code
+================================
+
+Build Scene 6, the finale, by cloning Scene 4 — keep the parallax punch anchored to the feet, the cast shadow, the camera push, the film treatment and the posterize exactly as they are. Then reskin it. Timings (30fps):
+
+- Swap the character: replace the sad exec with happy-reed.png (a smiling, hands-folded Reed) and fix his aspect ratio — he's taller and narrower than the old cut-out (about 2752×1536 instead of 3072×2048). Put him on street-bg.jpg, the emptied-out Blockbuster street. Keep him centred this time — no shift.
+
+- Swap the words: stack "The most / expensive" on the left from frame 8, and fade "in history" in on the left around frames 40–48.
+
+- The “no” gesture (the new part): around frame 24 bring a red foam finger (red-hand.svg) up from the bottom-right — slide it in and scale it from 0.72 to 1 over ~12 frames — then wag it left-right about the wrist like it's saying "no": a decaying swing, roughly 28° × cos(t × 0.52) × e^(−0.042t). Render it in front of Reed, about 250px, sitting under the left caption.
+
+- Keep everything else identical: grade saturate 0.62 / contrast 1.12 / sepia 0.06 / brightness 0.94, the punch to 1.7× by frame 58, the shadow skewed −53° at 55% opacity, and the 12fps posterize.

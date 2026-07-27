@@ -1,0 +1,16 @@
+PROMPT · SCENE 4  —  Claude Code
+================================
+
+Build Scene 4, the fall. Assets: blockbuster-bg.png (a dying Blockbuster storefront) and sad-man.png (a cut-out of a grim exec in a suit). Both are flat plates — sell depth by animating them, not by adding layers. Anchor everything to one ground point at the man's feet (about x560 / y1690). Timings (30fps):
+
+- Grounded parallax punch: push the building from scale 1.0 to 1.12 over frames 8–80, easing out. Over frames 0–58 punch the man in harder — up to about 1.7× and drifting toward camera — scaling him around his feet, not the frame centre. The man growing faster than the wall is the whole depth illusion.
+
+- The shadow is the man: duplicate the sad-man cut-out, paint it pure black, flip it straight down from his feet and skew it about −53° so it lies along the ground; blur it 7px and drop it to 55% opacity. No separate shadow asset.
+
+- Left line: stack "closed a / 1000 / stores" in serif italic on the left from frame 24, one line every ~6 frames, then fade it back to about 30% as the man moves.
+
+- The shift: around frame 60 slide the man ~235px to the left with a motion-blur streak that peaks mid-move, clearing the right side.
+
+- Right line: reveal "declared bankruptcy" on the right over frames 70–78, draw a hand-drawn yellow underline on beneath it, and tighten a focus vignette around it so the eye lands there.
+
+- Grade: desaturate this one further than the others — saturate 0.62, contrast 1.12, sepia 0.06, brightness 0.94 — for the sombre beat. Then the shared film treatment and the 12fps posterize step.
