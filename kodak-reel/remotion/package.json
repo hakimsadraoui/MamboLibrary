@@ -8,7 +8,8 @@
     "build": "remotion render Reel out/kodak-reel.mp4",
     "still": "remotion still",
     "typecheck": "tsc --noEmit",
-    "sync-assets": "node scripts/sync-assets.mjs"
+    "sync-assets": "node scripts/sync-assets.mjs",
+    "fetch-assets": "bash scripts/fetch-assets.sh"
   },
   "dependencies": {
     "@remotion/cli": "4.0.410",
