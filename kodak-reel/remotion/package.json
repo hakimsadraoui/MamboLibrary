@@ -1,0 +1,27 @@
+{
+  "name": "kodak-reel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Kodak vs. the digital camera — a 30s vertical documentary reel, coded in Remotion",
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion render Reel out/kodak-reel.mp4",
+    "still": "remotion still",
+    "typecheck": "tsc --noEmit",
+    "sync-assets": "node scripts/sync-assets.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.410",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.410"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.1",
+    "typescript": "5.9.3"
+  },
+  "remotion": {
+    "entrypoint": "src/index.ts"
+  }
+}
