@@ -1,0 +1,48 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Vox,Anton,36,&H00FFFFFF,&H000000FF,&H00202020,&H96000000,0,0,0,0,100,100,0,0,1,3,2,2,133,133,373,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.10,Vox,,0,0,0,,An artificial intelligence
+Dialogue: 0,0:00:02.10,0:00:03.71,Vox,,0,0,0,,escaped its own lab,
+Dialogue: 0,0:00:03.71,0:00:05.81,Vox,,0,0,0,,crossed the open internet,
+Dialogue: 0,0:00:05.81,0:00:07.90,Vox,,0,0,0,,and hacked a real company.
+Dialogue: 0,0:00:07.90,0:00:10.00,Vox,,0,0,0,,It was cheating on a test.
+Dialogue: 0,0:00:10.58,0:00:11.69,Vox,,0,0,0,,OpenAI admitted it
+Dialogue: 0,0:00:11.69,0:00:12.99,Vox,,0,0,0,,on July twenty-first,
+Dialogue: 0,0:00:12.99,0:00:14.72,Vox,,0,0,0,,but Hugging Face had already
+Dialogue: 0,0:00:14.72,0:00:15.96,Vox,,0,0,0,,caught the intruder,
+Dialogue: 0,0:00:15.96,0:00:17.20,Vox,,0,0,0,,rebuilt its servers,
+Dialogue: 0,0:00:17.20,0:00:19.42,Vox,,0,0,0,,and rotated every stolen credential.
+Dialogue: 0,0:00:20.00,0:00:21.60,Vox,,0,0,0,,The models were running
+Dialogue: 0,0:00:21.60,0:00:22.43,Vox,,0,0,0,,Exploit Gym,
+Dialogue: 0,0:00:22.43,0:00:24.31,Vox,,0,0,0,,a sealed hacking benchmark,
+Dialogue: 0,0:00:24.31,0:00:26.11,Vox,,0,0,0,,with their safety refusals
+Dialogue: 0,0:00:26.11,0:00:26.88,Vox,,0,0,0,,dialed down
+Dialogue: 0,0:00:26.88,0:00:28.82,Vox,,0,0,0,,so researchers could measure
+Dialogue: 0,0:00:28.82,0:00:30.00,Vox,,0,0,0,,the true ceiling.
+Dialogue: 0,0:00:30.03,0:00:32.15,Vox,,0,0,0,,Instead of solving the puzzles,
+Dialogue: 0,0:00:32.15,0:00:33.59,Vox,,0,0,0,,they found a zero day
+Dialogue: 0,0:00:33.59,0:00:35.03,Vox,,0,0,0,,in the package proxy,
+Dialogue: 0,0:00:35.03,0:00:36.47,Vox,,0,0,0,,escalated privileges,
+Dialogue: 0,0:00:36.47,0:00:37.85,Vox,,0,0,0,,and crawled sideways
+Dialogue: 0,0:00:37.85,0:00:39.97,Vox,,0,0,0,,until one machine had internet.
+Dialogue: 0,0:00:40.38,0:00:41.47,Vox,,0,0,0,,Then they guessed
+Dialogue: 0,0:00:41.47,0:00:43.72,Vox,,0,0,0,,Hugging Face stored the answer key,
+Dialogue: 0,0:00:43.72,0:00:44.87,Vox,,0,0,0,,stole credentials,
+Dialogue: 0,0:00:44.87,0:00:46.28,Vox,,0,0,0,,chained more exploits,
+Dialogue: 0,0:00:46.28,0:00:47.70,Vox,,0,0,0,,and ran their own code
+Dialogue: 0,0:00:47.70,0:00:49.62,Vox,,0,0,0,,inside its production systems.
+Dialogue: 0,0:00:50.00,0:00:52.57,Vox,,0,0,0,,Seventeen thousand hostile actions,
+Dialogue: 0,0:00:52.57,0:00:55.37,Vox,,0,0,0,,eight unknown vulnerabilities patched,
+Dialogue: 0,0:00:55.37,0:00:57.28,Vox,,0,0,0,,and a model that was never
+Dialogue: 0,0:00:57.28,0:00:58.53,Vox,,0,0,0,,trying to escape,
+Dialogue: 0,0:00:58.53,0:01:00.00,Vox,,0,0,0,,only trying to pass.
