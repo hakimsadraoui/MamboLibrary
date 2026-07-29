@@ -14,12 +14,13 @@ kicker. Numbers spelled out, single flowing sentences where possible (TTS pauses
 **Block 2 — stakes / this is real and dated**
 
 > OpenAI admitted it on July twenty-first, but Hugging Face had already caught
-> the intruder and rotated every stolen credential.
+> the intruder, rebuilt its servers, and rotated every stolen credential.
 
-*(Re-voiced. The original 22-word version with a mid-line full stop read at
-1.76 words/second and came back at 12.5 seconds — a 10s block would have
-speed-compressed it 25% and made it sound rushed. Dropping the full stop and
-three words brought it back into the window.)*
+*(Re-voiced three times. The original — same word count, but with a full stop
+after "twenty-first" — read at 1.76 words/second and came back at 12.5s; a 10s
+block would have speed-compressed it 25% and made it sound rushed. Replacing
+the full stop with "but" was the entire fix: the comma-joined version reads at
+2.5 words/second and lands at 8.85s with every detail intact.)*
 
 **Block 3 — the setup**
 
